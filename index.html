@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simulador de Financiamento</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <img src="https://facilfinanciamentos.com.br/wp-content/uploads/2019/07/botao_simulador.png" alt="">
+    </header>
+
+    <div class="container">
+
+        <h1>Simule seu Financiamento</h1>
+
+        <div class="simule">
+            
+            <h3>Escolha um veiculo</h3>
+
+            <p>
+                
+            <!-- <label for="veiculo" class="dados">Veículo </label> -->
+
+            <input type="text" name="veiculo" id="veiculo">
+        
+            </p>
+
+            <h3>
+                qual o  valor deste veiculo ?
+            </h3>
+
+            <p>
+                
+            <!-- <label for="valor" class="dados">Valor R$ </label> -->
+            
+            <input type="text" name="valor" id="valor">
+        
+            </p>
+
+        </div>
+
+        <input type="button" value="Consultar" onclick="calculo()" id="btn">
+        <p id="qw1"></p>
+
+    </div>
+
+    <div class="bank">
+        <img src="https://b2cred.com.br/wp-content/uploads/2020/11/download.png" width="150px" alt="">
+    </div>
+    
+</body>
+</html>
