@@ -1,4 +1,4 @@
-function calculo() {
+function shr() {
 
     var veiculo = document.getElementById('veiculo')
     var valor = document.getElementById('valor')
@@ -14,5 +14,5 @@ function calculo() {
     <div>Carro : <strong>${nVeiculo}</strong></div>
     <div>Entrada: <strong>R$${entrada}</strong></div>
     <div>+ 60x de <strong>R$${pJuros.toFixed(2)}</strong></div>`
-    
+
 }
