@@ -10,8 +10,8 @@ function calculo() {
     var parcelas = entrada / 60
     var parcelasJuros = parcelas + (parcelas * (70/100))
 
-    qw1.innerText = `O ${nomeVeiculo} pode ser seu com uma
-    Entrada minima de R$${entrada}
-    + 60x de R$${parcelasJuros.toFixed(2)}`
-
+    qw1.innerHTML = `
+    <div>Carro : <strong>${nomeVeiculo}</strong></div>
+    <div>Entrada: <strong>R$${entrada}</strong></div>
+    <div>+ 60x de <strong>R$${parcelasJuros.toFixed(2)}</strong></div>`
 }
